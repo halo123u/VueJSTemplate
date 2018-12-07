@@ -1,8 +1,10 @@
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
+require("babel-core/register");
+require("babel-polyfill");
 
 module.exports = {
-    entry: './src/index.js',
+    entry: ['babel-polyfill','./src/index.js'],
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
