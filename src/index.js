@@ -9,5 +9,5 @@ Vue.use(Vuelidate);
 
 new Vue({
     render: h => h(AppComponent)
-}).$mount('#BenchmarkDownloadApp');
+}).$mount('#VueApp');
 

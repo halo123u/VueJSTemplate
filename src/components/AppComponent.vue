@@ -1,13 +1,13 @@
 <template>
     <div class="appBody">
-        this is the download page for the benchmark {{test}}
+        this is the generic vue {{test}}
     </div>
 </template>
 <script>
 export default {
     data(){
         return {
-            test: 'survey'
+            test: 'template'
         }
     }
 }
